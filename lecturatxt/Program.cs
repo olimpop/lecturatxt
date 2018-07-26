@@ -13,8 +13,9 @@ namespace lecturatxt
 	                line=myreader.ReadLine();
                     if (line!=null)
                     {
-                        Console.WriteLine(line)	 ;
-                    }
+                    Console.WriteLine("Informacion Linea leida: " + line.ToString());
+                    
+                }
 	    }
             myreader.Close();
             Console.ReadLine();
